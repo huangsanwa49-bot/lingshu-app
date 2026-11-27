@@ -1,0 +1,7 @@
+# 统一用 LF，避免 Windows 上 autocrlf 把脚本改成 CRLF
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.jks binary
+*.png binary
+*.zip binary

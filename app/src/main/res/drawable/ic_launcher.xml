@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 应用图标：蓝绿渐变圆底 + 白色房子 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M54,4a50,50 0 1,0 0.01,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="10" android:startY="10"
+                android:endX="98" android:endY="98"
+                android:startColor="#FF2A78D6"
+                android:endColor="#FF1BAF7A" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M31,50 54,31 77,50 V76 a3,3 0 0,1 -3,3 H63 V62 H45 V79 H34 a3,3 0 0,1 -3,-3 Z" />
+</vector>

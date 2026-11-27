@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- 只由本应用的悬浮小助理打开，不对外导出 -->
+        <activity
+            android:name=".QuickChatActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.xiaojia.quickchat"
+            android:theme="@style/Theme.Xiaojia.Floating"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+</manifest>
