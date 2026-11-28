@@ -101,6 +101,8 @@ private fun ApprovalScreen() {
     }
 
     LaunchedEffect(Unit) {
+        // 切到这个标签时 App 已经在前台，不会再有 ON_RESUME；这里做首次加载
+        reload()
         while (true) {
             delay(1000)
             now = System.currentTimeMillis()

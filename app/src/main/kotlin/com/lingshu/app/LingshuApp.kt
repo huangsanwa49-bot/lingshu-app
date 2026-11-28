@@ -12,7 +12,7 @@ import com.lingshu.core.Feature
 import com.lingshu.core.Lingshu
 import com.lingshu.today.TodayFeature
 
-/** 功能模块登记处。以后的设备控制、R3 审批、语音对话在这里加一行。 */
+/** 功能模块登记处。以后的设备控制、语音对话在这里加一行。 */
 object Features {
     val all: List<Feature> = listOf(TodayFeature, ChatFeature, ApprovalFeature, AssistantFeature)
 }
