@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xiaojia.core"
+    namespace = "com.lingshu.core"
     compileSdk {
         version = release(37) { minorApiLevel = 2 }
     }

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xiaojia.assistant"
+    namespace = "com.lingshu.assistant"
     compileSdk {
         version = release(37) { minorApiLevel = 2 }
     }

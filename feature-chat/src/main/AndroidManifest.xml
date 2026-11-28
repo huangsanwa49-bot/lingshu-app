@@ -7,8 +7,8 @@
             android:exported="false"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
-            android:taskAffinity="com.xiaojia.quickchat"
-            android:theme="@style/Theme.Xiaojia.Floating"
+            android:taskAffinity="com.lingshu.quickchat"
+            android:theme="@style/Theme.Lingshu.Floating"
             android:windowSoftInputMode="adjustResize" />
     </application>
 </manifest>

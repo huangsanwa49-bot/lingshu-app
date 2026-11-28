@@ -12,17 +12,17 @@ val signing = Properties().apply {
 }
 
 android {
-    namespace = "com.xiaojia.app"
+    namespace = "com.lingshu.app"
     compileSdk {
         version = release(37) { minorApiLevel = 2 }
     }
 
     defaultConfig {
-        applicationId = "com.xiaojia.app"
+        applicationId = "com.lingshu.app"
         minSdk = 26 // Android 8.0 起：覆盖绝大多数在用的安卓手机
         targetSdk = 37
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "1.1.0"
     }
 
     signingConfigs {
@@ -66,6 +66,7 @@ dependencies {
     implementation(project(":core"))
     implementation(project(":feature-today"))
     implementation(project(":feature-chat"))
+    implementation(project(":feature-approvals"))
     implementation(project(":feature-assistant"))
     implementation(libs.activity.compose)
 }

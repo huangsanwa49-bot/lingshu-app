@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xiaojia.chat"
+    namespace = "com.lingshu.chat"
     compileSdk {
         version = release(37) { minorApiLevel = 2 }
     }
